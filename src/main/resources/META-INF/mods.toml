@@ -1,0 +1,34 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="GNU GPLv3"
+[[mods]]
+modId="waterskin"
+version="${file.jarVersion}"
+displayName="WaterSkin"
+#logoFile="WaterSkin.png" #optional
+credits="Thanks to my brothers <3"
+authors="Jacobboogiebear"
+description='''
+Adds a thirst tooltip to items with Tough as Nails thirst values.
+'''
+
+[[dependencies.waterskin]]
+   modId="forge"
+   mandatory=true
+   versionRange="[36,)"
+   ordering="NONE"
+   side="BOTH"
+
+[[dependencies.waterskin]]
+   modId="minecraft"
+   mandatory=true
+   versionRange="[1.16.5,1.17)"
+   ordering="NONE"
+   side="BOTH"
+
+[[dependencies.waterskin]]
+    modId="toughasnails"
+    mandatory=true
+    versionRange="[1.16.5-4.0.1.8,)"
+    ordering="NONE"
+    side="BOTH"
